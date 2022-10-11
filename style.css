@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    background-color: #72788D;
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
+}
+
+tr td button {
+    width: 65px;
+    height: 60px;
+    position: relative;
+    bottom: -80px;
+    left: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 30pt;
+    color: rgba(0, 0, 0, 0.61);
+    background-color: #E3D7FF;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px #fff;
+}
+
+.screen {
+    background-color: #190B28;
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 1px #fff;
+    color: #fff;
+    font-size: 30pt;
+    display: block;
+    text-align: center;
+    margin-top: 45px;
+}
+
+@media (max-width: 375px){
+    main {
+        width: 300px;
+        height: 550px;
+    }
+
+    tr td button {
+        width: 50px;
+        height: 50px;
+        top: 80px;
+        left: 10px;
+    }
+    
+    .screen {
+        width: 250px;
+        height: 150px;
+    }
+}
+@media (width: 414px){
+    main {
+        width: 360px;
+        height: 710px;
+    }
+
+    tr td button {
+        width: 70px;
+        height: 70px;
+        top: 90px;
+    }
+    
+    .screen {
+        width: 250px;
+        height: 180px;
+    }
+}
+
+@media (height: 600px){
+    main {
+        width: 360px;
+        height: 650px;
+    }
+
+    tr td button {
+        width: 70px;
+        height: 70px;
+        top: 90px;
+    }
+    
+    .screen {
+        width: 250px;
+        height: 170px;
+    }
+}
