@@ -44,6 +44,18 @@ tr td button {
     text-align: center;
     margin-top: 45px;
 }
+.hide {
+  display: none;
+}
+
+.erase {
+  width: 50px;
+  height: 40px;
+  font-size: 25pt;
+  border-radius: 10px;
+  position: relative;
+  top: 5px;
+}
 
 @media (max-width: 375px){
     main {
