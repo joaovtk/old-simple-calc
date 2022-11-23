@@ -48,7 +48,7 @@ tr td button {
   display: none;
 }
 
-.erase {
+#erase {
   width: 50px;
   height: 40px;
   font-size: 25pt;

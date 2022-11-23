@@ -1,10 +1,14 @@
 (() => {
     var button = document.getElementsByTagName("button");
     var span = document.querySelector(".text");
+    var erase = document.querySelector("#erase");
     for(var i = 0;i < button.length;i++){
         button[i].addEventListener("click", (e) => {
+	    erase.className = "";
             if(e.target.innerText == "←"){
               span.innerText = "";
+	      erase.className = "hide";
+	      console.log(erase.className);
             }else if(e.target.innerText == "="){
               try{
                 span.innerText = eval(span.innerText);
@@ -27,5 +31,4 @@
           span.style.fontSize = "30pt";
         });
     }
-
 })();
