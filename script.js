@@ -11,7 +11,11 @@
 	      console.log(erase.className);
             }else if(e.target.innerText == "="){
               try{
-                span.innerText = eval(span.innerText);
+		if(!eval(span.innerText)){
+		  span.innerText = "No way none operation";
+		}else {
+                   span.innerText = eval(span.innerText);
+		}
               }catch(err){
                 span.style.fontSize = "20pt";
                 span.innerText = "The count is generate a error try again";
