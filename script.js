@@ -13,6 +13,10 @@
               try{
 		if(!eval(span.innerText)){
 		  span.innerText = "No way none operation";
+		  setTimeout(() => {
+		     span.innerText = "";
+		     erase.className = "hide";
+		  }, 5000);
 		}else {
                    span.innerText = eval(span.innerText);
 		}
