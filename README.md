@@ -13,10 +13,10 @@
 <p>Estou aberto a sugestoes ou duvidas nos meus canais de comunicaçoes citados abaixo</p>
 
 # Comunicação
-email joaovitorsoaresdosreis3@gmail.com
-email secundario weebdevjs@gmail.com
-discord @GoiabaTk
-twitter hito_tk
+<p>email joaovitorsoaresdosreis3@gmail.com</p>
+<p>email secundario weebdevjs@gmail.com</p>
+<p>discord @GoiabaTk</p>
+<p>twitter hito_tk</p>
 
 # Obrigado por visitar o respositorio 
 <p>Adeus</p>
