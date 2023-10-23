@@ -3,7 +3,10 @@
 <p>Ela é bem simples pois ela foi um dos meus primeiros Projetos frontend</p>
 
 # Preview
-<a>Você consegue acessar o site da calculadora utilizando o seguinte link</a>
+<p>Você consegue acessar o site da calculadora utilizando o seguinte link https://joaovtk.github.io/simple-calc/</p>
+
+# Contribua
+<p>Contribua com repositorio mandando pull request e fazendo fork no seu perfil</p>
 
 # Duvidas e sugestões
 <p>Para fazer uma duvida ou sugestão crie uma issue no propio respositorio basta clicar em issues no meu acima e no botão do canto new issue</p>
